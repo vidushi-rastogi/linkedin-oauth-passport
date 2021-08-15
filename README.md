@@ -13,7 +13,7 @@ git clone https://github.com/vidushi-rastogi/linkedin-oauth-passport.git
 ```
 
 ##### Add .env file
-Create a .env file and initialise *CLIENT_ID*, *CLIENT_SECRET* as your initials generated after creating LinkedIn App in https://developer.linkedin.com/
+Create a `.env` file and initialise *CLIENT_ID*, *CLIENT_SECRET* as your initials generated after creating LinkedIn App in https://developer.linkedin.com/
 
 ##### Install Dependencies and then run setup
 #
