@@ -32,7 +32,7 @@ Login with your LinkedIn profile, this will direct you to LinkedIn authenticatio
 - User LinkedIn ID
 - User Email ID resgistered in their LinkedIn profile
 
-![alt text](https://github.com/Ackermann99/ajax-form-jpdb/blob/master/screenshots/log-history.jpeg?raw=true)
+![alt text](https://github.com/vidushi-rastogi/linkedin-oauth-passport/blob/master/screenshot/profilepage.jpeg?raw=true)
 #
 ## Reference Links
 - [LinkedIn Dev](https://developer.linkedin.com/) - Create registered LinkedIn app, to make API calls.
