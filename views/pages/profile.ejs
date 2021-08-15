@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+
+<head>  
+  <title>LinkedIn Authentication API</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+  <style>
+    .card:hover {
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+      margin-bottom: 54px;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="deep-purple darken-1" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo center">LoginApp</a>
+      <a href="/logout" class="right">Logout</a>
+    </div>
+  </nav>
+  <!-- display user details -->
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br><br>
+      <div class="row center">
+        <div class="col s12">
+          <div class="card">
+            <div class="card-content deep-purple lighten-1">
+              <span class="card-title col s12 m2">
+                  <img class="z-depth-3" src= "<%= user.photos[0].value %>" alt="">
+              </span>
+            </div>
+            <div class="card-action row">
+                <div class="col s12"><h5><b><%= user.displayName %></b></h5></div>
+                <div class="col s12"><p><strong>Linkedin id</strong>: <%= user.id %></p></div>
+                <div class="col s12"><p><strong>Email ID</strong>: <%= user.emails[0].value %></p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
